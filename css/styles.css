@@ -1,15 +1,15 @@
 #story1 {
   display: none;
-};
+}
 
 #story2 {
-  display: none;
-};
+  display: none !important;
+}
 
 #story3 {
   display: none;
-};
+}
 
 #story4 {
   display: none;
-};
+}
