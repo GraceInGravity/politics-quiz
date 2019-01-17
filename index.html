@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 
-  <head
+  <head>
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <script src="js/jquery-3.3.1.js"></script>
@@ -10,15 +10,18 @@
   </head>
 
   <body>
-
+    <div class="container">
       <h1><em>How do you lean politically?</em></h1>
-      <div>
-            <!-- Accepts the string name -->
+
+
             <form id="formOne">
+
+  <!-- Accepts the string name -->
               <div class="form-group">
                 <label for="name">What is your name?</label>
                 <input id="name" class="form-control" type="text">
               </div>
+
             <!-- Accepts the int age -->
               <div class="form-group">
                 <label for="age">What is your age?</label>
@@ -86,18 +89,59 @@
 
               <button type="submit" class="btn">How did I do?? Press here for results.</button>
             </form>
+
+
+          <div id="story1">
+            <h1>Your political leaning is... <em>Progressive!</em></h1>
+            <p> Dear <span class="name"></span>, <br> <br>
+
+              Congratulations, you're a progressive! Portland is sure as beans the city for you! Like Snow White, you probably love all the creatures of the forest. Like actual Jesus, you probably are a big fan of helping the poor and helpless. Like Obama, you probably are more enthusiastic about the future than not (at least after the current presidency ends). Yes, you can and yes, you did get the answer you were hoping for from this quiz!!!
+
+            </p>
+            <img src="img/progressive.jpg" alt="A picture of Barack Obama.">
           </div>
 
-          <div id="story">
-            <h1>Applicant Response</h1>
-            <p>
-              Dear <span class="name"></span>, <br> <br>
-              <!-- &emsp;&emsp; We are going to give you your political alignment. Your age of  <span class="age"></span> years old. <br><br>        Also we are only hiring Danes so we are not hiring you <span class="ethnicity"></span> people.<br><br>        Additionaly we only include people within twenty feet of corporate headquarters who have at least 70,000 Twitter follows and you only have  <span class="followers">.</span> <span class="name"></span> You only have <span class ="pop"></span> followers per year, stop crying. This operation is only for the most elite.
-            </p><p><br> <br>      <span class="beard"> </span> Beard? Oh bummer! <br><br> REJECTED! <br><br> Sincerly, <br><br> Barely Human Resources -->
-               <!-- <span class="single"></span> and <span class="dsa"></span> gave each other a giant <span class="beard"></span> -->
+          <div id="story2">
+            <h1>Your political leaning is... <em>Moderate!</em></h1>
+            <p> Dear <span class="name"></span>, <br> <br>
+
+              Congratulations, you're a moderate!
+
             </p>
+            <img src="img/moderate.jpg" alt="A picture of someone who isn't sure where they stand.">
           </div>
-        </div>
+
+          <div id="story3">
+            <h1>Your political leaning is... <em>Conservative!</em></h1>
+            <p> Dear <span class="name"></span>, <br> <br>
+
+              Congratulations, you're a conservative! Most things about Portland probably bug the hell out of you! Like the villain from <em>Fern Gully</em>, you probably want to wipe out the forests if it makes you a quick buck.
+
+            </p>
+            <img src="img/conservative.jpg" alt="A picture of Donald Trump.">
+          </div>
+
+          <div id="story4">
+            <h1>Your political leaning is... <em>Gandalf!</em></h1>
+            <p> Dear <span class="name"></span>, <br> <br>
+
+              Gandalf, my dear boy! Welcome to Epicodus. What on earth are you doing here??
+
+            </p>
+            <img src="img/gandalf.gif" alt="A picture of Gandalf.">
+          </div>
 
   </body>
 </html>
+
+<!-- <p>
+  Dear <span class="name"></span>, <br>
+</p>
+
+
+<p>
+  <br>
+  &emsp; &emsp; We are going to give you your political alignment. Your age of  <span class="age"></span> years old. <br><br>        Also we are only hiring Danes so we are not hiring you <span class="gender"></span> people.<br><br>        Additionaly we only include people within twenty feet of corporate headquarters who have at least 70,000 Twitter follows and you only have  <span class="climateChange">.</span> <span class="name"></span> You only have <span class ="immigration"></span> followers per year, stop crying. This operation is only for the most elite.
+</p><p><br> <br>      <span class="gender"> </span> Beard? Oh bummer! <br><br> REJECTED! <br><br> Sincerly, <br><br> Barely Human Resources
+   <span class="foreignPolicy"></span> and <span class="newsSource"></span> gave each other a giant <span class="gender"></span>
+</p> -->

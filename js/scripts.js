@@ -1,6 +1,6 @@
-function popularity(fage,ffollow){
-  return ffollow/fage;
-}
+// function popularity(fage,ffollow){
+//   return ffollow/fage;
+// }
 
 
 
@@ -8,29 +8,32 @@ $(document).ready(function() {
   $("#formOne").submit(function(event) {
     var nameInput = $("input#name").val();
     var ageInput = $("input#age").val();
-    var genderInput= $("input#gender").val();
-    var imigrationInput = $("input#imigration").val();
+    var genderInput= $("select#gender").val();
+    var immigrationInput = $("select#immigration").val();
     var climateChangeInput = $("select#climateChange").val();
-    var foreignPolicyInput = $("input#foreignPolicy").val();
-    var newsSourceInput = $("input#newsSource").val();    
+    var foreignPolicyInput = $("select#foreignPolicy").val();
+    var newsSourceInput = $("select#newsSource").val();
+
+
     var pAge = parseInt(ageInput);
-    var pFollowers = parseInt(followersInput);
+    // var pFollowers = parseInt(followersInput);
 
 
     $(".name").text(nameInput);
     $(".age").text(pAge);
-    $(".ethnicity").text(ethnicityInput);
-    $(".followers").text(pFollowers);
-    $(".beard").text(beardInput);
-    $(".single").text(singleInput);
+    $(".gender").text(genderInput);
+    $(".immigration").text(immigrationInput);
+    $(".climateChange").text(climateChangeInput);
+    $(".foreignPolicy").text(foreignPolicyInput);
+    $(".newsSource").text(newsSourceInput);
 
-    $("#story").show();
+    $("#story1").show();
     event.preventDefault();
 
-    var pop = popularity (pAge,pFollowers);
+    // var pop = popularity (pAge,pFollowers);
 
 
-    $(".pop").text(pop);
+    // $(".pop").text(pop);
 
   });
 
