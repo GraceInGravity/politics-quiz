@@ -8,10 +8,11 @@ $(document).ready(function() {
   $("#formOne").submit(function(event) {
     var nameInput = $("input#name").val();
     var ageInput = $("input#age").val();
-    var ethnicityInput= $("input#ethnicity").val();
-    var followersInput = $("input#followers").val();
-    var beardInput = $("select#beard").val();
-    var singleInput = $("input#single").val();
+    var genderInput= $("input#gender").val();
+    var imigrationInput = $("input#imigration").val();
+    var climateChangeInput = $("select#climateChange").val();
+    var foreignPolicyInput = $("input#foreignPolicy").val();
+    var newsSourceInput = $("input#newsSource").val();    
     var pAge = parseInt(ageInput);
     var pFollowers = parseInt(followersInput);
 
