@@ -10,7 +10,7 @@
   </head>
 
   <body>
-    <!-- <div class="container"> -->
+    <div class="container">
       <h1><em>How do you lean politically?</em></h1>
 
 
@@ -33,10 +33,10 @@
               <div class="form-group">
                 <label for="gender">Select your gender:</label>
                 <select class="form-control" id="gender">
-                  <option>Female</option>
-                  <option>Male</option>
-                  <option>Other</option>
-                  <option>Gandalf</option>
+                  <option value="-2">Female</option>
+                  <option value="1">Male</option>
+                  <option value="-4">Other</option>
+                  <option value="0">Gandalf</option>
                 </select>
               </div>
 
@@ -44,10 +44,10 @@
               <div class="form-group">
                 <label for="immigration">What are your thoughts on immigration in America?</label>
                 <select class="form-control" id="immigration">
-                  <option>Immigrants make America better.</option>
-                  <option>Build the wall!</option>
-                  <option>Borders are there for a reason.</option>
-                  <option>Keep the ORCS OUT!</option>
+                  <option value="-2">Immigrants make America better.</option>
+                  <option value="2">Build the wall!</option>
+                  <option value="1">Borders are there for a reason.</option>
+                  <option value="0">Keep the ORCS OUT!</option>
                 </select>
               </div>
 
@@ -55,11 +55,11 @@
               <div class="form-group">
                 <label for="climateChange">What are your thoughts on climate change?</label>
                 <select class="form-control" id="climateChange">
-                  <option>It's cold outside? No climate change here!</option>
-                  <option>Climate change is a real and imminent danger to future generations.</option>
-                  <option>The scientific community does not agree on whether it is real or not.</option>
-                  <option>I am only investing in propane tanks, canned goods, and bottled water.</option>
-                  <option>Who needs to worry about rising sea levels when you can ride an eagle?</option>
+                  <option value="2">It's cold outside? No climate change here!</option>
+                  <option value="-2">Climate change is a real and imminent danger to future generations.</option>
+                  <option value="1">The scientific community does not agree on whether it is real or not.</option>
+                  <option value="1">I am only investing in propane tanks, canned goods, and bottled water.</option>
+                  <option value="0">Who needs to worry about rising sea levels when you can ride an eagle?</option>
                 </select>
               </div>
 
@@ -67,10 +67,10 @@
               <div class="form-group">
                 <label for="foreignPolicy">What are your thoughts on American foreign policy?</label>
                 <select class="form-control" id="foreignPolicy">
-                  <option value="-1" >We should solve problems at home before looking abroad.</option>
-                  <option>America is a beacon of hope for the world that should lead the way in keeping it peaceful for all.</option>
-                  <option>The United States should only get involved when wars, massacres, or massive human rights offenses are about to occur.</option>
-                  <option>Wherever Sauron hides, our people will go to fight him.</option>
+                  <option value="2" >We should solve problems at home before looking abroad.</option>
+                  <option value="1">America is a beacon of hope for the world that should lead the way in keeping it peaceful for all.</option>
+                  <option value="-1">The United States should only get involved when wars, massacres, or massive human rights offenses are about to occur.</option>
+                  <option value="0">Wherever Sauron hides, our people will go to fight him.</option>
                 </select>
               </div>
 
@@ -78,11 +78,11 @@
               <div class="form-group">
                 <label for="newsSource">What news source is the most trustworthy to you?</label>
                 <select class="form-control" id="newsSource">
-                  <option>Fox News</option>
-                  <option>CNN</option>
-                  <option>MSNBC</option>
-                  <option>The Hobbiton Post</option>
-                  <option>The Failing New York Times</option>
+                  <option value="3">Fox News</option>
+                  <option value="1">CNN</option>
+                  <option value="-2">MSNBC</option>
+                  <option value="0">The Hobbiton Post</option>
+                  <option value="-1">The Failing New York Times</option>
                 </select>
               </div>
 
@@ -102,11 +102,11 @@
           </div>
 
           <div id="story2">
-            <!-- <h1>Your political leaning is... <em>Moderate!</em></h1> -->
+            <h1>Your political leaning is... <em>Moderate!</em></h1>
             <p> Dear <span class="name"></span>, <br> <br>Congratulations, you're a moderate!</p>
-            <!-- <img src="img/moderate.jpg" alt="A picture of someone who isn't sure where they stand."> -->
+            <img src="img/moderate.jpg" alt="A picture of someone who isn't sure where they stand.">
           </div>
-<!--
+
           <div id="story3">
             <h1>Your political leaning is... <em>Conservative!</em></h1>
             <p> Dear <span class="name"></span>, <br> <br>
@@ -125,19 +125,7 @@
 
             </p>
             <img src="img/gandalf.gif" alt="A picture of Gandalf.">
-          </div> -->
-    <!-- </div> -->
+          </div>
+    </div>
   </body>
 </html>
-
-<!-- <p>
-  Dear <span class="name"></span>, <br>
-</p>
-
-
-<p>
-  <br>
-  &emsp; &emsp; We are going to give you your political alignment. Your age of  <span class="age"></span> years old. <br><br>        Also we are only hiring Danes so we are not hiring you <span class="gender"></span> people.<br><br>        Additionaly we only include people within twenty feet of corporate headquarters who have at least 70,000 Twitter follows and you only have  <span class="climateChange">.</span> <span class="name"></span> You only have <span class ="immigration"></span> followers per year, stop crying. This operation is only for the most elite.
-</p><p><br> <br>      <span class="gender"> </span> Beard? Oh bummer! <br><br> REJECTED! <br><br> Sincerly, <br><br> Barely Human Resources
-   <span class="foreignPolicy"></span> and <span class="newsSource"></span> gave each other a giant <span class="gender"></span>
-</p> -->
